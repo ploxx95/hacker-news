@@ -1,0 +1,46 @@
+.App {
+  background-color: #fcfcfc;
+}
+.header {
+  padding: 44px 150px 42px 150px;
+  box-shadow: 0 1px 4px 0 rgba(0, 21, 41, 0.12);
+  background-image: linear-gradient(to bottom, #ececec -32%, #fff 124%);
+}
+.HACKER-NEWS {
+  object-fit: contain;
+  font-family: Baskerville;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #3b3b3b;
+}
+.anchor-section {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 6px 40px;
+  border-radius: 2px;
+  color: #606060;
+  border: solid 1px #d6d6d6;
+}
+
+.anchor-section.active {
+  color: #1797ff;
+  border: solid 1px #1797ff;
+}
+.container-home {
+  padding: 0 150px;
+  display: grid;
+  place-content: center;
+}
+.wrapper-sectioner {
+  margin-top: 70px;
+}
