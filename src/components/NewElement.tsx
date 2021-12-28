@@ -1,14 +1,16 @@
 import React from 'react'
 
-type SectionerProps = {
+type NewsProps = {
   children: React.ReactNode,
-  to: string
+  time?: string,
+  author?: string,
+  isFavorite?: boolean
 }
 
-function NewElement({ children, to }: SectionerProps) {
+function NewElement({ children, time, author, isFavorite }: NewsProps) {
   return (
-    <div>
-
+    <div className='news'>
+      {children}
     </div>
   )
 }

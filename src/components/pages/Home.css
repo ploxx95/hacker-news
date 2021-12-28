@@ -44,3 +44,9 @@
 .wrapper-sectioner {
   margin-top: 70px;
 }
+.news {
+  padding: 25px 0 24px 26px;
+  border-radius: 6px;
+  border: solid 1px #979797;
+  background-color: #fff;
+}
